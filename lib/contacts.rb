@@ -16,5 +16,6 @@ require 'pry'
   
 def remove_strawberry(contacts)
   flav = contacts["Freddy_Mercury"]["favorite_ice_cream_flavors"]
+  binding.pry
   
 end
