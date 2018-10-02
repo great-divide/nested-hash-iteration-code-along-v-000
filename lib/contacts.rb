@@ -15,8 +15,8 @@ require 'pry'
   }
   
 def remove_strawberry(contacts)
-  flav = contacts["Freddy Mercury"]["favorite_ice_cream_flavors"]
-  flav.delete("strawberry")
+  contacts.each do |person, details_hash|
+    binding.pry
   
 end
 remove_strawberry(contacts)
