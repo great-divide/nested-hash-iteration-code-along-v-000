@@ -15,6 +15,6 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  unshift.contacts[:flavors]
+  contacts[:flavors] = ["strawberry"].delete
   contacts
 end
